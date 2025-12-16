@@ -1,0 +1,19 @@
+.DS_Store
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Test results
+TestResults/
+
+# Node (used only during PDF text extraction)
+node_modules/
+package-lock.json
+package.json
+

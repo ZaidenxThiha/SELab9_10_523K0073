@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  razor:
+    build:
+      context: ./DockerRazorApp
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+  mvc:
+    build:
+      context: ./DockerMvcApp
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8080"
+

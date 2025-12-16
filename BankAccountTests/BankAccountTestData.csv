@@ -1,0 +1,5 @@
+CustomerName,InitialBalance,DebitAmount,ExpectedBalance
+Trung Pham,1000,200,800
+Ky Pham,500,100,400
+Thai Pham,300,50,250
+Ky Trung Pham,100,150,Insufficient funds
